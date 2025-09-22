@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- Declara el tipo de documento como HTML5 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que la página sea adaptable (responsive) a diferentes dispositivos -->
+    <title>Página de práctica</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+</head>
+<body>
+    <h1>Laboratorio 04</h1>
+    <!-- Título principal de la página -->
+    <hr>
+    <!-- Línea horizontal para separar secciones -->
+    <h3>Mis 5 comidas favoritas</h3>
+    <!-- Subtítulo de sección -->
+    <ul>
+        <!-- Lista desordenada -->
+        <li>Combo de arroz chaufa con lomo saltado</li>
+        <li>Lomo a lo pobre</li>
+        <li>Arroz verde</li>
+        <li>Ceviche</li>
+        <li>Tallarines rojos con pollo</li>
+    </ul>
+    <hr>
+    <!-- Nueva separación visual -->
+    <h3>Algoritmo de búsqueda binaria</h3>
+    <!-- Subtítulo de sección -->
+    <ol>
+        <!-- Lista ordenada (numerada) que explica los pasos del algoritmo -->
+        <li><strong>Definir los límites de la búsqueda:</strong> inicio (el primer elemento) y fin (el último elemento) de la lista.</li>
+        <li><strong>Calcular el punto medio:</strong> medio = (inicio + fin) / 2. Este punto divide la lista en dos mitades.</li>
+        <li><strong>Comparar el valor buscado:</strong></li>
+        <ul>
+            <!-- Lista interna (anidada) que detalla los posibles casos al comparar -->
+            <li>Si el valor en lista[medio] es igual al valor buscado, se ha encontrado y el algoritmo termina.</li>
+            <li>Si el valor buscado es mayor que lista[medio], significa que el elemento solo puede estar en la mitad 
+                superior de la lista. Por lo tanto, se ajusta el inicio a (medio + 1).</li>
+            <li>Si el valor buscado es menor que lista[medio], el elemento solo puede estar en la mitad inferior de la lista. 
+                Se ajusta el fin a (medio - 1).</li>
+        </ul>
+        <li>Si el bucle termina y el elemento no se ha encontrado, significa que el valor no existe en la lista.</li>
+    </ol>
+    <hr>
+    <!-- Nueva separación -->
+    <h3>Algoritmo para encontrar el número más grande en una lista</h3>
+    <ol>
+        <!-- Lista numerada con pasos del algoritmo -->
+        <li><strong>Inicio</strong>: Se define una variable llamada "maximo" y se le asigna el primer número de la lista.</li>
+        <li><strong>Repetición</strong>: Se inicia un bucle para recorrer cada número de la lista.</li>
+        <li><strong>Condición</strong>: Dentro del bucle, se compara el número actual con el valor de la variable "maximo". Si el número actual es mayor, se cumple la condición.</li>
+        <li><strong>Actualización</strong>: Si la condición anterior es verdadera, se actualiza el valor de "maximo" con el número actual.</li>
+        <li><strong>Fin de la repetición</strong>: El bucle finaliza cuando se han revisado todos los números de la lista.</li>
+        <li><strong>Mostrar resultado</strong>: Se muestra el valor final de la variable "maximo".</li>
+    </ol>
+    <hr>
+    <!-- Nueva separación -->
+    <h3>Mis hobbies y que recursos empleo para realizarlos</h3>
+    <ol>
+        <!-- Lista ordenada con hobbies -->
+        <li><strong>Jugar baloncesto</strong>
+            <ul>
+                <!-- Lista anidada con los recursos necesarios -->
+                <li>Zapatillas de baloncesto</li>
+                <li>Balón de baloncesto</li>
+                <li>Cancha</li>
+                <li>Ropa deportiva</li>
+            </ul>
+        </li>
+        <li><strong>Escuchar música</strong>
+            <ul>
+                <li>Audífonos</li>
+                <li>Celular o reproductor de MP3</li>
+                <li>Servicio de streaming (Spotify, Apple Music, etc.)</li>
+                <li>Parlante portátil</li>
+            </ul>
+        </li>
+        <li><strong>Dibujar</strong>
+            <ul>
+                <li>Lápices de colores o grafito</li>
+                <li>Hojas o sketchbook</li>
+                <li>Borrador</li>
+                <li>Sacapuntas</li>
+            </ul>
+        </li>
+        <li><strong>Salir a correr</strong>
+            <ul>
+                <li>Zapatillas para correr</li>
+                <li>Ropa ligera</li>
+                <li>Reloj deportivo</li>
+                <li>Aplicación de seguimiento (Strava, Nike Run Club, etc.)</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
